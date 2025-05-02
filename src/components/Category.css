@@ -1,0 +1,16 @@
+.info-cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    
+    border: 2px solid black;
+  
+}
+.info-card{
+    width: 260px;
+    height: 200px;
+    border: 1px solid red;
+}
+.cardd{
+    width: 80px;
+}

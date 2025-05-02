@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-nav{
+    width: 100%;
+    border: 1px solid black;
+    border-radius:1.2rem;
+    box-shadow: 5px 5px 10px black;
+    position: sticky;
+    
+}
+
+
+
+.navbar{
+    width:90%;
+    height: 75px;
+    margin-left: auto;
+    margin-right: auto;
+  
+    padding: 6px;
+    margin-top: 4px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ 
+
+   
+   
+
+
+
+}
+.e-shop{
+
+ margin-top: 13px;
+
+ font-size:25px;
+font-weight: 600;
+color: black;
+}
+.e-shop a{
+    color: black;
+    text-decoration: none;
+
+}
+
+
+.search{
+    width: 60%;
+    margin-top: 7px;
+}
+
+
+.search input{
+    margin-top:7px;
+    font-size: 14px;
+    color: black;
+   width: 80%;
+    padding:7px;
+    border-radius: 5px;
+}
+.last-nav{
+    width:20%;
+    padding-top: 3px;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position: relative;
+   
+
+}
+.last-nav .cart{
+    padding-top: 5px;
+    font-size:25px;
+    color: darkcyan;
+   
+   
+}
+.login-btn{
+    padding: 6px;
+    font-weight: 550;
+    cursor: pointer;
+    font-size: 13px;
+    border-radius: 3px;
+    background-color: rgb(174, 171, 171);
+   
+}
+.user-btn{
+    padding: 5px;
+    font-weight: 550;
+    cursor: pointer;
+    font-size: 10px;
+     margin-right:25px;
+    border-radius: 3px;
+    background-color:white;
+ 
+
+}
+.list{
+  
+    padding: 4px;
+    display: flex;
+    gap: 1rem;
+   justify-content: center;
+   font-size:16px;
+   
+   
+   
+}
+.list a{
+    color: black;
+    text-decoration: none;
+
+}
+.list a:hover{
+    color:rgb(250, 2, 2);
+}
+
+.cart-span{
+    position: absolute;
+    top:10px;
+    left:12px;
+   
+    color: black;
+    font-size:18px;
+    font-weight: 700;
+    background-color:rgb(224, 25, 65);
+    padding:2px;
+    border-radius:10px;
+
+}
+
+

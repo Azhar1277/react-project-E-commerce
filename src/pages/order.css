@@ -1,0 +1,108 @@
+.order-cnfrm{
+    margin-top: 15px;
+   /* border: 2px solid blue;*/
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 10px 15px 15px black;
+    border-radius: 10px;
+
+}
+.order-cnfrm h2{
+    color:rgb(7, 227, 29);
+    padding-left: 200px;
+}
+p{
+
+    font-weight: 500;
+    padding-top: 8px;
+}
+.ord-sum{
+    /*border: 1px solid green;*/
+    margin-top: 8px;
+    margin-right: 100px;
+}
+.shipping-info{
+  /*  border: 1px solid red;*/
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+   
+}
+.shipping-info h2{
+    color:rgb(192, 16, 192);
+    font-size:17px;
+   margin-left: 30px;
+   margin-top: 10px;
+}
+.shipping-info span{
+    padding-right:100px;
+  
+}
+.shipping-info .span2{
+    padding-right:165px;
+    padding-top: 5px;
+  
+}
+.pro{
+    padding: 10px;
+    border: 1px solid black;
+}
+.pro h3{
+    padding-right: 90px;
+    color: darkcyan;
+}
+.order-info{
+    padding: 15px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 230px;
+   
+}
+
+.to-price{
+  /* border: 1px solid rgb(152, 7, 31);*/
+   display: flex;
+   flex-direction: row;
+   padding-left:250px;
+   
+}
+.to-price span{
+   padding:5px;
+}
+.ord-btn{
+    margin-top:15px;
+    margin-bottom: 10px;
+}
+.ord-btn button{
+    background-color: aqua;
+   padding: 5px;
+
+}
+.ord-btn button:hover{
+    transition: 0.3s all ease;
+    transform: scale(1.1);
+}
+.Billing-info{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+   
+
+}
+.Billing-info h2{
+    color:rgb(192, 16, 192);
+    font-size:17px;
+   margin-left: 30px;
+   margin-top: 10px;
+}
+.Billing-info span{
+    padding-right:100px;
+  
+}
+.Billing-info .span2{
+    padding-right:165px;
+    padding-top: 5px;
+  
+}

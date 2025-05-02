@@ -1,0 +1,146 @@
+section{
+   /* border: 1px solid red;*/
+    margin-top: 20px;
+  
+}
+.main-section{
+    display: flex;
+}
+
+
+.left-box{
+
+    width: 60%;
+    border: 1px solid black;
+   
+}
+.biling{
+    display: flex;
+    justify-content: space-around;
+}
+.name{
+    display: flex;
+    flex-direction:column;
+    margin: 10px;
+   
+    
+}
+.name label{
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 5px;
+
+}
+.email{
+    display: flex;
+    flex-direction:column;
+    margin: 10px;
+  
+}
+.email label{
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 5px;
+
+
+}
+.phone{
+    display: flex;
+    flex-direction:column;
+    margin: 10px;
+   
+}
+.phone label{
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 5px;
+
+}
+.extra{
+    border: 1px solid greenyellow;
+}
+.payment{
+    display: flex;
+    justify-content: space-around;
+  
+
+}
+.cash{
+   
+   display: flex;
+   margin-left: 180px;
+
+   /* border: 1px solid red;*/
+}
+.cash-input{
+   padding-top: 10px;
+   padding-left: 5px;
+ /*  border: 1px solid red;*/
+
+}
+.cash-label{
+    padding-top: 10px;
+  
+
+}
+.debit-info{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+    padding-left: 25px;
+   
+}
+.debit-info h3{
+    padding-top: 10px;
+}
+.debit-info label{
+    padding-right: 25px;
+}
+.right-box{
+    margin-left: 120px;
+    
+  
+}
+.right-box img{
+
+    width: 130px;
+    height: 130px;
+}
+.check-cart{
+    border: 2px solid black;
+}
+.checkout-info{
+
+    margin-top: 40px;
+    margin-left: 35px;
+    margin-right: 20px;
+  
+}
+.checkout-info h4{
+   padding-bottom: 5px;
+}
+.checkout-info span{
+    font-size: 16px;
+}
+.right-main{
+    display: flex;
+}
+.total-checkout{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    font-size: 18px;
+}
+.order-btn{
+    background-color: rgb(183, 227, 227);
+    padding-left: 18px;
+    margin-left: 10px;
+   
+}
+.order-btn:hover{
+    background-color: aqua;
+    transition: 0.3s all ease;
+    transform: scale(1.1);
+
+}

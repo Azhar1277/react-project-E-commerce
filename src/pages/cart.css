@@ -1,0 +1,172 @@
+.maincart-con{
+   /* border: 2px solid green;*/
+    margin-top: 15px;
+    display: flex;
+   justify-content: space-around;
+}
+.main2{
+    width: 65%;
+   /* border: 1px solid black;*/
+   }
+   .cart-heading{
+  
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+   /* border: 1px solid red;*/
+    
+}
+.cart-heading .pro{
+    padding-top: 16px;
+    margin-right:60px;
+  
+}
+
+
+.cartinfo-heading{
+
+    display: flex;
+    flex-direction: row;
+  
+}
+.cartinfo-heading p{
+    padding: 15px;
+}
+
+
+
+
+.cart-information{
+
+  /*  border: 1px solid red;*/
+    display: flex;
+    justify-content: space-between;
+   margin-top: 10px;
+  
+   
+}
+.cart-img{
+   /* border: 1px solid black;*/
+    margin-right:40px;
+    display: flex;
+    flex-direction: row;
+
+}
+.cart-information h3{
+    padding-top: 60px;
+    padding-left: 15px;
+}
+
+.cart-information img{
+
+   width: 120px;
+   height: 130px;
+}
+
+
+
+
+  
+   .cart-info{
+    
+    display:flex;
+   
+    justify-content: space-around;
+    margin-right: 140px;
+    padding-top: 20px;
+   
+    
+   }
+   .cart-info p{
+   padding: 35px;
+   padding-left: 10px;
+   
+   }
+   
+   .dlt{
+    background-color: aqua;
+    width: 20px;
+    height: 30px;
+   
+   }
+   .cart-info .dlt{
+    margin-top:30px;
+    margin-left: 30px;
+   }
+   .qtn-btn{
+    width: 50px;
+    height: 40px;
+    background-color: aqua;
+   padding-top: 10px;
+   padding-left: 6px;
+   
+    border-radius: 10px;
+    margin-top: 25px;
+     margin-right: 35px;
+    display: flex;
+    gap: 5px;
+
+   }
+   .qtn-btn span{
+    font-size: 20px;
+    font-weight:600;
+    cursor: pointer;
+
+   }
+   
+
+   .cart-info .para{
+    margin-right:8px;
+
+
+   }
+   .cart-info .subpara{
+  margin-left: 15px;
+  
+   }
+
+   .cart-total{
+   /* border: 1px solid black;*/
+    height: 370px;
+    width:300px;
+    box-shadow:   10px 10px 15px black;
+    border-radius:7px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: flex-start;
+
+   }
+   .t-item{
+  /*  border: 1px solid black;*/
+    display: flex;
+    justify-content:space-between;
+    padding: 10px;
+    font-size:14px;
+
+   }
+   .shiping{
+   /* border: 1px solid black;*/
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   }
+   .t-price{
+   /* border: 1px solid gray;*/
+     display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+ 
+    
+   }
+   .c-btn{
+    color: white;
+    margin-left: 10px;
+    background-color: crimson;
+   }
+   .shop-div{
+    margin-top: 15px;
+   }
+  

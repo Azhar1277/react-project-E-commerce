@@ -1,0 +1,93 @@
+h2{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+}
+
+
+.login-email{
+    display: flex;
+    flex-direction: column; 
+    padding-left: 20px;
+   
+  
+}
+.label-email{
+  
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 5px;
+   font-size: 18px;
+   font-weight: 540px;
+
+}
+.login-pass{
+    display: flex;
+    flex-direction: column; 
+    padding-left: 20px;
+    margin-top: 20px;
+   
+
+}
+.label-pass{
+    
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 5px;
+   font-size: 18px;
+   font-weight: 540px;
+
+
+}
+.login-checkbox{
+    margin-top:25px;
+    
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+   
+ 
+ 
+
+ 
+    
+}
+.login-checkbox input{
+    margin-left: 16px;
+ 
+   
+    width: 14px;
+}
+.login-label{
+    margin-right: 20px;
+  
+   
+  
+}
+.loginpage-btn{
+    background-color: aqua;
+    padding-left: 12px;
+}
+.loginpage-btn:hover{
+    transition: 0.3s all ease;
+    transform: scale(1.1);
+    background-color: cornflowerblue;
+}
+.login-last{
+    margin-top: 30px;
+
+}
+.signup-btn{
+    background-color: aqua;
+    padding-left: 12px;
+    margin-left: 10px;
+}
+
+    .signup-btn:hover{
+        transition: 0.3s all ease;
+        transform: scale(1.1);
+        background-color: cornflowerblue;
+    }
+    

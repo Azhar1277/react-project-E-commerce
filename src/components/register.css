@@ -1,0 +1,47 @@
+.signup-name{
+    display: flex;
+    flex-direction: column; 
+    padding-left: 20px;
+   
+
+}
+.label-name{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 5px;
+   font-size: 18px;
+   font-weight: 540px;
+
+}
+.login-pass{
+    display: flex;
+    flex-direction: column; 
+    padding-left: 20px;
+    margin-top: 20px;
+
+}
+.loginpage-btn{
+    background-color: aqua;
+    padding-left: 12px;
+    margin-top: 40px;
+}
+.loginpage-btn:hover{
+    transition: 0.3s all ease;
+    transform: scale(1.1);
+    background-color: cornflowerblue;
+}
+.signup-last{
+    margin-top: 30px;
+
+}
+.signupPage-btn
+{
+    background-color: aqua;
+    padding-left: 12px;
+    margin-left: 10px;
+}
+.signupPage-btn:hover{
+    transition: 0.3s all ease;
+    transform: scale(1.1);
+    background-color: cornflowerblue;
+}

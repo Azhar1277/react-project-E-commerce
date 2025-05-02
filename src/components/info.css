@@ -1,0 +1,56 @@
+.info-container{
+    width: 90%;
+  
+    border: 1px solid greenyellow;
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  gap: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+
+}
+.card{
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 10px 15px black;
+  cursor: pointer;
+  transition: 0.2s all ease-in;
+ 
+
+  
+}
+.card:hover{
+ transform: scale(0.9);
+}
+.card .fa{
+  font-size: 1.5rem;
+  color: blue;
+}
+.card h2{
+  font-size:22px;
+font-weight: 600;
+padding-top: 5px;
+padding-bottom: 5px;
+
+}
+ .card .fas{
+  color: crimson;
+  font-size: 1.5rem;
+ }
+ .fat{
+  font-size: 1.5rem;
+ }
+ .dis{
+  margin-left: 25px;
+ }
+ 
+ .fam{
+  color: darkcyan;
+  font-size: 1.5rem;
+ }
+ .fal{
+  font-size: 1.5rem;
+  color: deepskyblue;
+ }
+
